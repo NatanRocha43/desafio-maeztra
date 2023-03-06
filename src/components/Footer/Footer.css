@@ -1,0 +1,33 @@
+.footer{
+    background-color: #353535;;
+    width: 100%;
+    height: 85px;
+    padding: 20px;
+    
+}
+
+.footer__div{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 20px;
+    justify-items: center;
+}
+.footer__div--img{
+    display: flex;
+    align-items: center;
+}
+.footer__img-social{
+    width: 32px;
+    height: 32px;
+    margin-left: 22px;
+}
+.footer__img-cartao{
+    width: 32px;
+    height: 25px;
+    margin-left: 22px;
+}
+.footer__img-office{
+    width: 70px;
+    height: 45px;
+    margin-left: 22px;
+}

@@ -1,0 +1,119 @@
+@font-face{
+    font-family: NomeDaFonte;
+
+    src: url("./fonts/TitilliumWeb-Black.ttf");
+}
+.app__div-modal{
+	display: flex;
+	justify-content: between;
+	gap: 10px;
+}
+.app__div-left{
+	display: flex;
+	margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.app__img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+.app__titulo{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #464B54;
+}
+.app__sub-titulo{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: center;
+	color: #787D83;
+}
+.app__email-input{
+	background: #FFFFFF;
+	width: 322px;
+	height: 40px;
+	border: 1px solid #C4C4C4;
+	border-radius: 10px;
+	padding-left: 24px;
+	margin: 0 auto;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app__button{
+	background: #FAA500;
+	border-radius: 10px;
+	border: none;
+	color: #FFFFFF;
+	width: 322px;
+	height: 40px;
+	margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:768px) {
+	.app__div-modal{
+		display: none !important;
+	}
+}
+html{
+	font-family: NomeDaFonte !important;
+	overflow-x: hidden;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
