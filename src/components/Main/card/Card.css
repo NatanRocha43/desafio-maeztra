@@ -1,0 +1,111 @@
+.cardMaeztra__div-titulo{
+    display: flex;
+    justify-content: center;
+
+}
+
+.cardMaeztra__div-h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #353535;
+    margin: 24px 0 21px 0;
+
+}
+.cardMaeztra__bold{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+
+}
+.cardMaeztra__p{
+    margin-bottom: unset !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+.cardMaeztra__div-top{
+    display: flex;
+    justify-content: center;
+   
+}
+.cardMaeztra__div-1{
+    display: flex;
+    align-items: center;
+    width: 308px;
+    height: 64px;
+    background: #EFEFEF;
+    border-radius: 4px; 
+    margin-left: 15px;
+}
+.cardMaeztra__img{
+    width: 32px;
+    height: 32px;
+    margin-left: 27px;
+    margin-right: 22px;
+
+}
+.cardMaeztra__div-top, .cardMaeztra__div-bot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.cardMaeztra__div-h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 49px;
+    text-align: center;
+    color: #353535;
+    
+}
+
+.cardMaeztra__div-titulo-bot{
+    display: flex;
+    justify-content: center;
+    margin-top: 74px;
+    margin-bottom: 17px;
+}
+.cardMaeztra__div-img{
+    width: 308px;
+    height: 64px;
+    margin: 0 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:1660px) {
+    .cardMaeztra__bold{
+        font-size: 10px;
+    }
+    .cardMaeztra__p{
+        margin-bottom: unset !important;
+        font-style: normal;
+        font-size: 8px;
+        line-height: 18px;
+    }
+    .cardMaeztra__div-1{
+        width: 250px;
+    }
+    .cardMaeztra__div-1:last-child{
+        margin-right: 15px;
+    }
+
+    .cardMaeztra__div-img{
+        width: 180px;
+        height: 64px;
+    }
+}

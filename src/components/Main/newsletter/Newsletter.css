@@ -1,0 +1,55 @@
+.newsletter{
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid #EFEFEF;
+    border-bottom: 2px solid #EFEFEF; 
+    width: 100%; 
+    box-sizing: border-box;
+    padding: 40px;
+}
+.newsletter__div{
+    display: flex;
+    justify-content: center;    
+    gap: 15px
+}
+
+.newsletter__p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.newsletter__search{
+    flex: 1;
+    width: 630px;
+    height: 40px;
+    display: flex;
+}
+  
+.newsletter__email-input{
+    max-width: 100%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding-left: 24px;
+    flex: 1;
+    height: 100%;
+    border: none;
+    font-size: 12px;
+    outline: none;
+}
+.newsletter__search-button{
+    width: 131px;
+    height: 40px;
+    border: none;
+    background: #FAA500;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    right: 20px;
+}
