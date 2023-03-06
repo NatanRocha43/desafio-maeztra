@@ -19,9 +19,9 @@ const Header = () => {
             </div>
             <div className='header__menu'>
                 <ul className='header__menu-list'>
-                    <li className='header__menu-item'><a className='header__li-link' href='/'>Minha Conta</a></li>
-                    <li className='header__menu-item'><a className='header__li-link' href='/'>Minha Conta</a></li>
-                    <li className='header__menu-item'><a className='header__li-link' href='/'>Meu Carrinho</a></li>
+                    <li className='header__menu-item'><a className='header__li-link icon-1' href='/'>Minha Conta</a></li>
+                    <li className='header__menu-item'><a className='header__li-link icon-2' href='/'>Minha Conta</a></li>
+                    <li className='header__menu-item'><a className='header__li-link icon-3' href='/'>Meu Carrinho</a></li>
                 </ul>
             </div>
         </div>
