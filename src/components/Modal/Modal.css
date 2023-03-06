@@ -29,3 +29,9 @@
     cursor: pointer;
     color: #fff;
 }
+
+@media (max-width:768px) {
+	.show-modal{
+		display: none !important;
+	}
+}
