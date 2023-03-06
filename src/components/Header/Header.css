@@ -96,6 +96,13 @@
     text-decoration: none;
 }
 
+.icon-3{
+    box-sizing: border-box;
+    border: 1px solid #FAA500;
+    border-radius: 8px;
+    padding: 12px;
+}
+
 
 .icon-1::before{
     content: '';
