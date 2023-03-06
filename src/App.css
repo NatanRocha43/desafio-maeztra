@@ -3,7 +3,67 @@
 
     src: url("./fonts/TitilliumWeb-Black.ttf");
 }
+.app__div-modal{
+	display: flex;
+	justify-content: between;
+	gap: 10px;
+}
+.app__div-left{
+	display: flex;
+	margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
+.app__img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+.app__titulo{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #464B54;
+}
+.app__sub-titulo{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: center;
+	color: #787D83;
+}
+.app__email-input{
+	background: #FFFFFF;
+	width: 322px;
+	height: 40px;
+	border: 1px solid #C4C4C4;
+	border-radius: 10px;
+	padding-left: 24px;
+	margin: 0 auto;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app__button{
+	background: #FAA500;
+	border-radius: 10px;
+	border: none;
+	color: #FFFFFF;
+	width: 322px;
+	height: 40px;
+	margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 html{
 	font-family: NomeDaFonte !important;
 	overflow-x: hidden;
