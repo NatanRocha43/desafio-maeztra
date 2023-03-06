@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "./static/css/main.88715ca5.css",
+    "main.js": "./static/js/main.973daf2c.js",
+    "static/media/img-modal.png": "./static/media/img-modal.8bc3de437eadb1a8aa1c.png",
+    "static/media/product2.jpg": "./static/media/product2.b6b2b05fd13281882ed8.jpg",
+    "static/media/product1.jpg": "./static/media/product1.1d9789dac4b6ff034bfb.jpg",
+    "static/media/TitilliumWeb-Black.ttf": "./static/media/TitilliumWeb-Black.b06b28a5ea3d6c76e3f2.ttf",
+    "static/media/slick.svg": "./static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "./static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "./static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "./index.html",
+    "static/media/icon-modal.svg": "./static/media/icon-modal.a94cb04c9d872689d6b2f0e942c8d229.svg",
+    "main.88715ca5.css.map": "./static/css/main.88715ca5.css.map",
+    "main.973daf2c.js.map": "./static/js/main.973daf2c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88715ca5.css",
+    "static/js/main.973daf2c.js"
+  ]
+}
