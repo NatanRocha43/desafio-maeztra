@@ -5,12 +5,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function SlideLayout() {
   return (
-    <Carousel variant="dark">
+    <Carousel variant='dark'>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="https://i.imgur.com/ftECh3G.png"
-          alt="First slide"
+          className='d-block w-100'
+          src='https://i.imgur.com/ftECh3G.png'
+          alt='First slide'
         />
         <Carousel.Caption>
             <div className='div__content-img'>
@@ -23,9 +23,9 @@ function SlideLayout() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="https://i.imgur.com/ftECh3G.png"
-          alt="Second slide"
+          className='d-block w-100'
+          src='https://i.imgur.com/ftECh3G.png'
+          alt='Second slide'
         />
         <Carousel.Caption>
             <div className='div__content-img'>
@@ -37,9 +37,9 @@ function SlideLayout() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="https://i.imgur.com/ftECh3G.png"
-          alt="Third slide"
+          className='d-block w-100'
+          src='https://i.imgur.com/ftECh3G.png'
+          alt='Third slide'
         />
         <Carousel.Caption>
             <div className='div__content-img'>

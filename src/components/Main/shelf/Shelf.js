@@ -1,18 +1,18 @@
-import React from "react";
+import React from 'react';
 import './Shelf.css'
-import Slider from "react-slick";
+import Slider from 'react-slick';
 import Produto1 from '../../../assets/img/product1.jpg'
 import Produto2 from '../../../assets/img/product2.jpg'
 
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 export default function Shelf() {
   const settings = {
-    className: "center",
+    className: 'center',
     infinite: true,
     dots: true,
-    centerPadding: "60px",
+    centerPadding: '60px',
     slidesToShow: 5,
     swipeToSlide: true,
     responsive: [
@@ -23,7 +23,7 @@ export default function Shelf() {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          centerPadding: "0",
+          centerPadding: '0',
           dots: true
         }
       },

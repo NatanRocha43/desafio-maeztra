@@ -37,12 +37,12 @@ const Card = () => {
                 <h3 className='cardMaeztra__div-h3'>Marcas Parceiras</h3>
             </div>
             <div >
-                <div className="cardMaeztra__div-bot">
-                    <div className="imagem imagem--1"><img className='cardMaeztra__div-img' src="https://i.imgur.com/Qoc0YF7.png" alt='parceiros' /></div>
-                    <div className="imagem imagem--2"><img className='cardMaeztra__div-img' src="https://i.imgur.com/cHLLxR4.png" alt='parceiros' /></div>
-                    <div className="imagem imagem--3"><img className='cardMaeztra__div-img' src="https://i.imgur.com/JOTNQgl.png" alt='parceiros' /></div>
-                    <div className="imagem imagem--4"><img className='cardMaeztra__div-img' src="https://i.imgur.com/PN0nOAY.png" alt='parceiros' /></div>
-                    <div className="imagem imagem--5"><img className='cardMaeztra__div-img' src="https://i.imgur.com/qZ1WvYA.png" alt='parceiros' /></div>
+                <div className='cardMaeztra__div-bot'>
+                    <div className='imagem imagem--1'><img className='cardMaeztra__div-img' src='https://i.imgur.com/Qoc0YF7.png' alt='parceiros' /></div>
+                    <div className='imagem imagem--2'><img className='cardMaeztra__div-img' src='https://i.imgur.com/cHLLxR4.png' alt='parceiros' /></div>
+                    <div className='imagem imagem--3'><img className='cardMaeztra__div-img' src='https://i.imgur.com/JOTNQgl.png' alt='parceiros' /></div>
+                    <div className='imagem imagem--4'><img className='cardMaeztra__div-img' src='https://i.imgur.com/PN0nOAY.png' alt='parceiros' /></div>
+                    <div className='imagem imagem--5'><img className='cardMaeztra__div-img' src='https://i.imgur.com/qZ1WvYA.png' alt='parceiros' /></div>
                 </div>
             </div>
         </div>       
