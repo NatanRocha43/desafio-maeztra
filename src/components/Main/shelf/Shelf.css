@@ -1,6 +1,9 @@
 .slick-next{
     display: none !important;
 }
+Slider{
+    margin-left: 100px;
+}
 .shelf__titulo{
     font-style: normal;
     font-weight: 700;
